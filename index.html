@@ -16,16 +16,16 @@
     </iframe> 
     <div class="flex">
         <div class="h-20 flex-1 bg-yellow-300 hover:bg-yellow-500">
-            <h1 class="text-center py-5 text-2xl font-bold">Summer</h1>
+            <h1 class="text-center py-5 text-2xl font-bold" onclick="alertSummer()">Summer</h1>
         </div>
         <div class="h-20 flex-1 bg-orange-300 hover:bg-orange-500">
-            <h1 class="text-center py-5 text-2xl font-bold">Autumn</h1>
+            <h1 class="text-center py-5 text-2xl font-bold" onclick="alertAutumn()">Autumn</h1>
         </div>
         <div class="h-20 flex-1 bg-blue-300 hover:bg-blue-500">
-            <h1 class="text-center py-5 text-2xl font-bold">Winter</h1>
+            <h1 class="text-center py-5 text-2xl font-bold" onclick="alertWinter()">Winter</h1>
         </div>
         <div class="h-20 flex-1 bg-green-300 hover:bg-green-500">
-            <h1 class="text-center py-5 text-2xl font-bold">Spring</h1>
+            <h1 class="text-center py-5 text-2xl font-bold" onclick="alertSpring()">Spring</h1>
         </div>
     </div>
 
@@ -125,12 +125,15 @@
                 <button class="rounded-full bg-gray-200 pt-2 pb-2 pl-4 pr-4 border-double border-2 border-gray-900 text-l hover:bg-gray-300" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">reveal le results</button>
             </div>
             <div id="spoiler" style="display:none" class="flex flex-row"> 
+                <div class="flex flex-col">
                     <div class="text-lg p-5">
                         Spring is the most epic season as it brings the revival of nature, with vibrant blossoms, lush greenery, 
                         and the sweet melody of birdsong. It symbolizes new beginnings, filling the air with a sense of hope, 
                         energy, and possibility. Spring also offers comfortable temperatures, inviting people outdoors to enjoy a wide 
                         range of activities, from picnics to sports, making it a season of joy and adventure.
                     </div>
+                    <img src="./img/coc.gif" alt="" class="p-5">
+                </div>
                 <img src="./img/spring.jpg" alt="flowerz" width="800" class="p-5">
             </div> 
         </div>
@@ -204,7 +207,7 @@
                         coming off the tree. This happens in autumn.
                     </h1>
                     <h1 class="text-center p-2 text-l ">
-                        ALSO THERE IS CITADEL OMG PLS GIVE ME JOB
+                        + citadel :o
                     </h1>
                 </div>
                 <div class="flex-1 bg-green-100" onmouseover="springImg(fortnitemap)" onmouseout="normalImg(fortnitemap)">
@@ -231,7 +234,7 @@
         </div>
 
         <div class="flex flex-row">
-            <h1 class="font-bold text-6xl p-10 hover:animate-spin">bonus poggers implementation of js →</h1>
+            <h1 class="font-bold text-6xl p-10 hover:animate-spin">bonus →</h1>
             <div class="w-80 p-20">
                 <div class="grid grid-cols-3 grid-rows-5">
                     <div></div>
@@ -252,20 +255,23 @@
                 </div>
             </div>
             <div id="container">
-                <img id="man" src="./img/fortnite_man.png" style="top: 0px; left: 0px; width: 100px; height: 200px;"></img>
+                <img id="man" src="./img/fortnite_man.png" onmouseover="sussy(this)" style="top: 0px; left: 0px; width: 100px; height: 200px;"></img>
               </div>
         </div>
+        
+        <h1 class="pt-5 pb-2 text-center text-7xl font-semibold">
+            pov: you are on one of the websites ever made
+        </h1>
+        <h1 class="text-center text-xl pb-6">
+            let me be a trainee so i can make websites that make sense
+        </h1>
+        <iframe src="./index.html" title="troll" style="width: 1600; height: 700;" class="p-10"></iframe>
 
-        <div>
-            <h1 class="pt-5 pb-2 text-center text-7xl font-semibold">
-                please can i become
-            </h1>
-            <h1 class="text-center text-xl">
-                become trainee?
-            </h1>
+        
+        <div class="flex flex-row justify-center">
+            <button class="right bg-red-600 rounded-md hover:bg-orange-300 p-5" onclick="badbutton()">press me</button>
         </div>
     </div>
 </body>
-
     <script src="app.js"></script>
 </html>

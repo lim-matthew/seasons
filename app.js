@@ -1,3 +1,18 @@
+function alertSummer() {
+    alert("these");
+}
+
+function alertAutumn() {
+    alert("buttons");
+}
+
+function alertWinter() {
+    alert("dont");
+}
+
+function alertSpring() {
+    alert("do anything yet");
+}
 
 function normalImg(x) {
     x.src="./img/fortnitemap.jpg"
@@ -17,6 +32,27 @@ function springImg(x) {
 
 function unknownImg(x) {
     x.src="./img/fortnitemap_unknown.jpg"
+}
+
+function sussy(x) {
+    x.src="./img/sussy.jpg"
+    setTimeout(function(){
+        x.src="./img/fortnite_man.png"
+    }, 1000);
+}
+
+function badbutton() {
+    let i = 0;
+    while (prompt("will u let me in the trainee program?") != "yes") {
+        i++;
+        if (i==3) {
+            alert("hint: type 'yes'");
+        }
+        if (i==6) {
+            alert("bruh");
+        }
+    }
+    alert("thanks, see u then");
 }
 
 
