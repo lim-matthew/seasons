@@ -34,6 +34,14 @@ function unknownImg(x) {
     x.src="./img/fortnitemap_unknown.jpg"
 }
 
+function nerd2Img(x) {
+    x.src="./img/nerd2.jpg"
+}
+
+function nerd3Img(x) {
+    x.src="./img/nerd3.jpg"
+}
+
 function sussy(x) {
     x.src="./img/sussy.jpg"
     setTimeout(function(){
